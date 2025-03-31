@@ -28,7 +28,7 @@ While the coffee shop makes regular daily sales, it is important to identify:
 
 | Store_ID | The unique identity for each store. | 
 
-| Store Location | The store location. | 
+| Store Location | The  location where the transaction was made. | 
 
 | Product_ID | The unique product identity. | 
 
