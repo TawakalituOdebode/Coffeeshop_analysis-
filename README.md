@@ -9,34 +9,25 @@ While the coffee shop makes regular daily sales, it is important to identify:
 
 -Peak transaction period 
 
-- The monthly revenue trend to detect growth
+-The monthly revenue trend to detect growth
   
 ## DATA SET:
 **Data source**-Kaggle( Maven Analytics)
 **Data Description**
 
 ### ** Coffee shop Analytics Data**
-| Column Name | Description | 
+| Column Name             | Description                                                    |
+|-------------------------|----------------------------------------------------------------|
+| Transaction_ID (Primary Key) | A unique identifier for each product transaction.            |
+| Transaction date        | Date when each transaction was made.                           |
+| Transaction_Qty         | The number of products bought at the time of the transaction.  |
+| Store_ID                | The unique identity for each store.                            |
+| Store Location          | The location where the transaction was made.                   |
+| Product_ID              | The unique product identity.                                   |
+| Unit_price              | The price of each product.                                     |
+| Product_category        | The category of each product.                                  |
+| Product_type            | The type of product purchased.                                           |
 
-|----------|----------|----------|
-
-| Transaction_ID (Primary Key) | A unique identifier for each product  | 
-
-| Transaction date | date when each transaction was made. | 
-
-| Transaction_ Qty | The number of products bought at the time of the transaction. | 
-
-| Store_ID | The unique identity for each store. | 
-
-| Store Location | The  location where the transaction was made. | 
-
-| Product_ID | The unique product identity. | 
-
-| Unit_price | The prices of each product. | 
-
-| Product_category | The category of each product. | 
-
-| Product_type | The type of product. | 
 
 ## DATA ANALYSIS:
 -Data cleaning  process using excel functions
